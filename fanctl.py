@@ -11,7 +11,7 @@ try:
 	FAN_MAX_TEMP=config["FAN_MAX_TEMP"]
 	UPDATE_INTERVAL=config["UPDATE_INTERVAL"]
 	MAX_PERF=config["MAX_PERF"]
-	INV_PWM=config["INV_PWM"]
+	INVERSE_PWM=config["INVERSE_PWM"]
 	THERMAL_ZONE=config["THERMAL_ZONE"]
 except:
 	print("error loading /etc/automagic-fan/config.json.\nPlease check your config file.\nProceeding with default settings.")
